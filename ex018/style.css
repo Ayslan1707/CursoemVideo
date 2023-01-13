@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 05px;
+    margin: 05px;
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+main{
+    padding: 05px;
+    margin: 05px;
+    background-color: white;
+}
+article{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+article > aside {
+    background-color: rgba(102, 102, 102, 0.523);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin:0px
+}
+#assuntos{
+    padding: 3px;
+    margin: 3px;
+    background-color: dimgray;
+
+}
+h1{
+    box-shadow: inset 1px 1px 5px black;
+    width: 140px;
+}

@@ -1,0 +1,47 @@
+/*
+
+    SELETORES PERSONALIZADOS
+ . = class
+ # = id
+ : = pseudo-class
+ :: = pseudo-element
+ > = clildren (filho)
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+a{
+    color: rgb(230, 12, 12);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(138, 43, 226);
+    
+}
+.unico::before{
+    content: "⇒";
+    color: rgb(16, 3, 3);
+}
+.unico::after{
+    content: "⇐";
+    color: rgb(12, 6, 6);
+}
+a::before{
+    content: "➼";
+    color: red;
+}
+a::after{
+    content: "⇠";
+    color: blueviolet;
+}

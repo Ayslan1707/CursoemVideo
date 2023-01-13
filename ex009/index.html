@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Imagem Dinâmica</h1>
+<p>
+    Tente abrir essa img em varios dispositivos
+</p>
+
+<picture> <!--Tag que seleciona varias img-->
+    <source media="(max-width:750px)" srcset="imagens/paisagem.jpeg" type="image/jpeg">
+    <source media="(max-width:1050px )" srcset="imagens/download.jpeg" type="image/png">
+    <img src="imagens/foto.jpg" alt="Imagem flexivel">
+</picture>
+
+    <h1>Reproduzindo Audios</h1>    
+
+    <p>
+        Vamos aprender a reproduzir audio
+    </p>
+
+   <h1>Inserindo videos do Youtube</h1>
+    
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/60rCE_h3_OI"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--<audio src="midia/music.mp3" controls autoplay></audio>
+    Outra forma de adicionar audio MP3-WAV-OGG-->
+</body>
+</html>
